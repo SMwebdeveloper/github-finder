@@ -61,15 +61,12 @@ ul li {
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
   margin: 0;
 }
 
 .wrapper-content {
-  display: flex;
-  flex-direction: column;
+
   min-height: 100vh;
 }
 .wrapper-content.wrapper-content--fixed {
@@ -78,7 +75,7 @@ ul li {
 
 .container {
   width: 100%;
-  flex: 0 0 auto;
+  /* flex: 0 0 auto; */
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
@@ -151,5 +148,16 @@ ul li {
   color: #333333;
   font-size: 30px;
   font-weight: 700;
+}
+.btn-primary {
+  padding: 8px 20px;
+  background: rgb(7, 76, 122);
+  border-radius: 30px;
+  font-size: 14px;
+  outline: none;
+  color: aliceblue;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
 }
 </style>
