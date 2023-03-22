@@ -9,7 +9,8 @@
         />
 
         <!-- buttons -->
-        <button class="btn-primary" @click="getRepos">Search!</button>
+        <button v-if="!repos" class="btn-primary" @click="getRepos">Search!</button>
+        <button v-else class="btn-primary" @click="getRepos">Search Again!</button>
 
         <div class="error" v-if="error">
           <p>{{ error }}</p>
