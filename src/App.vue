@@ -28,9 +28,7 @@
 export default {
   data() {
     return {
-      links: [
-        { title: "Home", url: "/" },
-      ],
+      links: [{ title: "Home", url: "/" }],
     };
   },
 };
@@ -66,7 +64,6 @@ ul li {
 }
 
 .wrapper-content {
-
   min-height: 100vh;
 }
 .wrapper-content.wrapper-content--fixed {
@@ -124,27 +121,27 @@ ul li {
   color: #5247e7;
 }
 /* link */
-.link{
-  cursor:pointer;
-  border-bottom:1px solid #4343aa;
+.link {
+  cursor: pointer;
+  border-bottom: 1px solid #4343aa;
   color: #4343aa;
 }
-.link.linkWhite{
+.link.linkWhite {
   border-bottom: 1px solid #fff;
   color: #fff;
 }
-.link.linkFalse{
+.link.linkFalse {
   border-bottom: 1px solid #b53f3f;
   color: #b53f3f;
 }
-.link.linkTrue{
+.link.linkTrue {
   border-bottom: 1px solid #7bd782;
   color: #7bd782;
 }
 
 /* title */
-.title{
-  margin-bottom:20px ;
+.title {
+  margin-bottom: 20px;
   color: #333333;
   font-size: 30px;
   font-weight: 700;
