@@ -38,7 +38,6 @@ export default {
 </script>
 <style lang="css">
 .search{
-    margin-top: -200px;
     display: flex;
     align-items: center;
     width: 500px;
